@@ -1,0 +1,60 @@
+.men-styles {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  margin: 0 100px 100px;
+}
+
+.men-styles div {
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+.men-styles img {
+  width: 277px;
+  height: auto;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.men-styles img:hover {
+  transform: scale(0.9);
+}
+
+a {
+  text-decoration: none;
+}
+
+.menCards h3 {
+  margin-top: 5px;
+  margin-left: 40px;
+  width: 200px;
+  color: #3c4242;
+  font-family: "helvetica";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.h1-men {
+  padding-left: 10px;
+  padding-bottom: 3px;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 100px;
+  color: rgba(0, 212, 255, 1);
+  font-family: Helvetica;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 94, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}

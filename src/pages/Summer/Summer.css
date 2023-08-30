@@ -1,0 +1,33 @@
+.h1-slide {
+  display: flex;
+  align-items: center;
+}
+
+.title-slide {
+  width: 500px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+.h1-summer {
+  padding-left: 10px;
+  padding-bottom: 3px;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 100px;
+  color: rgb(250, 199, 199);
+  font-family: Helvetica;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: rgb(82, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(82, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 44%,
+    rgba(140, 252, 69, 1) 100%
+  );
+}

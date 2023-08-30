@@ -1,0 +1,19 @@
+.card-div {
+  margin-bottom: 30px;
+}
+
+.linha {
+  margin-left: 60px;
+}
+
+.detalhe h1 {
+  margin-left: 0;
+  margin-bottom: 15px;
+}
+
+.detalhe {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  width: 500px;
+}

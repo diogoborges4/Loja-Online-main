@@ -1,0 +1,155 @@
+.div-principal {
+  display: flex;
+}
+
+.div-principal img {
+  margin-left: 214px;
+  width: 520px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.info-img {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 60px;
+}
+
+.info-img h1 {
+  margin-left: 0;
+  margin-right: 40px;
+  color: #3c4242;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.68px;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.stars p {
+  margin-left: 10px;
+}
+
+.info-img h4 {
+  margin-top: 20px;
+  color: #3f4646;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.btn-size {
+  margin-top: 23px;
+}
+
+.btn-size button {
+  margin-right: 20px;
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  border: 1.5px solid #bebcbd;
+  background-color: aliceblue;
+  cursor: pointer;
+  color: #3c4242;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+button:active,
+button:focus {
+  background-color: #3c4242;
+  color: #dfdfdf;
+}
+
+.btn-color svg {
+  margin-top: 29px;
+  margin-right: 20px;
+}
+
+.btn-buy {
+  display: flex;
+}
+.btn-cart2 {
+  margin-top: 40px;
+  margin-right: 25px;
+  height: 25px;
+  display: flex;
+  padding: 12px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #8a33fd;
+  color: #fff;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 18px;
+  font-style: normal;
+  width: auto;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.btn-cart2:hover {
+  background: #7913ff;
+}
+
+.btn-price {
+  margin-top: 40px;
+  margin-right: 25px;
+  width: 58px;
+  height: 22px;
+  display: flex;
+  padding: 12px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  border: 1px solid #3c4242;
+}
+
+.detail-prod {
+  display: flex;
+  width: 550px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 37px;
+  border-top: 1px solid #bebcbd;
+}
+
+.detail-prod div {
+  width: 250px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.detail-prod h3 {
+  color: #3c4242;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.loading {
+  margin-left: 500px;
+}

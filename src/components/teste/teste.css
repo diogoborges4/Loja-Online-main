@@ -1,0 +1,36 @@
+body {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: auto ;
+}
+
+div h1 {
+    color: #4cad59;
+    background-color: blue;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    background-color: #4cad59;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    margin-top: 20px;
+    transition: 0.5s;
+    font-family: Tahoma;
+    justify-content: center;
+    
+
+}
+
+a:hover {
+    background-color: #20c236;
+}

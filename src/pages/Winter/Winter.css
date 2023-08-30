@@ -1,0 +1,19 @@
+.h1-winter {
+  padding-left: 10px;
+  padding-bottom: 3px;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 100px;
+  color: rgb(250, 199, 199);
+  font-family: Helvetica;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: rgb(63, 250, 251);
+  background: radial-gradient(
+    circle,
+    rgb(63, 175, 240) 15%,
+    rgba(73, 88, 249, 1) 100%
+  );
+}

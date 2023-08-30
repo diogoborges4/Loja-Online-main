@@ -1,0 +1,15 @@
+.hide-view {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 18px;
+  }
+  
+  .hide-view.hide {
+    height: 16px;
+  }
+  
+  .hide-view.see {
+    height: 12px;
+  }
+  

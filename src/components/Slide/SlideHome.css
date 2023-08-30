@@ -1,0 +1,97 @@
+.slider {
+  margin: 30px;
+  padding: 20px;
+}
+
+.slider div {
+  display: flex;
+}
+
+.img121 {
+  height: 750px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../static/img/shop-hero-1-product-slide-1.png");
+  position: relative;
+}
+
+.img121-1 {
+  height: 750px;
+  background-position: right;
+  background-size: cover;
+  background-image: url("../../static/img/photographer-white-background.png");
+  position: relative;
+}
+
+.img121-2 {
+  height: 750px;
+  background-position: right;
+  background-size: cover;
+  background-image: url("../../static/img/unsplash-bbiusdck8tu.png");
+  position: relative;
+}
+
+.text-img {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 439px;
+  height: 455px;
+  margin-left: 193px;
+  margin-top: 80px;
+}
+
+.text-img h5 {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 37.771px; /* 118.035% */
+  letter-spacing: 0.157px;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+.text-img h1 {
+  margin-left: 0;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 78px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 93.622px; /* 120.028% */
+  letter-spacing: 0.315px;
+  margin-bottom: 40px;
+}
+
+.text-img h4 {
+  color: #fff;
+  font-family: helvetica;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 47.214px; /* 147.544% */
+  letter-spacing: 0.315px;
+  margin-bottom: 40px;
+}
+
+.text-img a {
+  display: flex;
+  padding: 16px 72px;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 61px;
+  gap: 12px;
+  border-radius: 8px;
+  background: #fff;
+  color: #3c4242;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 100px;
+}
