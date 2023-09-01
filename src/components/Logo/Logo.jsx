@@ -12,8 +12,8 @@ export const Logo = () => {
       <div className="overlap-group">
         <img
           className="group"
+          src="/static/img/Design-sem-nome.png"
           alt="Group"
-          src="/src/static/img/Design-sem-nome.png"
         />
       </div>
     </div>
