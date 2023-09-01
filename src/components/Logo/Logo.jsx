@@ -9,12 +9,7 @@ import "./Logo.css";
 export const Logo = () => {
   return (
     <div className="logo">
-      <div className="overlap-group">
-        <img
-          className="group"
-           src= "/static/img/Design-sem-nome.png"
-          alt="Group"
-        />
+      <div className="group">
       </div>
     </div>
   );
