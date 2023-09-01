@@ -12,7 +12,7 @@ export const Logo = () => {
       <div className="overlap-group">
         <img
           className="group"
-           url("../../static/img/Design-sem-nome.png")
+           src= "/static/img/Design-sem-nome.png"
           alt="Group"
         />
       </div>
