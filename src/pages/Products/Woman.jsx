@@ -28,7 +28,10 @@ const Woman = () => {
       <h1 className="h1-woman">Woman Style</h1>
       <div className="men-styles">
         {!menStyle.media && (
-          <img src="/src/static/img/Infinity-3s-200px (1).gif" alt="" />
+          <img
+            src="/src/static/img/Infinity-3s-200px(1).gif"
+            alt="Carregando..."
+          />
         )}
         {menStyle.media &&
           menStyle.media.map((men) => (

@@ -38,7 +38,7 @@ const CartProducts = () => {
       {products.length === 0 && (
         <img
           id="imgCartEmpty"
-          src="src\static\img\pngkit_carrinho-de-compras-png_4110678.png"
+          src="src\static\img\pngkit_carrinho-de-compras-4110678.png"
           alt=""
         />
       )}
