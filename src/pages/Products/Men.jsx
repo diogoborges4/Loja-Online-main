@@ -35,9 +35,7 @@ const Men = () => {
       <Navbar />
       <h1 className="h1-men">Men Style</h1>
       <div className="men-styles">
-        {!menStyle.media && (
-          <img src="src\static\img\Infinity-3s-200.gif" alt="Carregando..." />
-        )}
+        {!menStyle.media && <div className="loading"></div>}
         {menStyle.media &&
           menStyle.media.map((men) => (
             <Link to={`/product/${men.id}`} props={men.id}>

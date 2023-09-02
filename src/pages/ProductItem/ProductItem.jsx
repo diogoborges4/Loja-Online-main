@@ -15,6 +15,7 @@ import { useDispatch } from "react-redux";
 import { addProductToCart } from "../../redux/cart/action";
 
 const ProductItem = () => {
+  const [exibirMensagem, setExibirMensagem] = useState(false);
   const { id } = useParams();
   const [product, setproduct] = useState([]);
   const heightValue = product.height;
@@ -35,19 +36,21 @@ const ProductItem = () => {
 
   const HandleProductClick = () => {
     dispatch(addProductToCart(product));
+
+    setExibirMensagem(true);
+
+    // Define um tempo para ocultar a mensagem depois de alguns segundos (opcional)
+    setTimeout(() => {
+      setExibirMensagem(false);
+    }, 3000);
   };
 
   console.log(realValue);
   return (
     <div>
       <Navbar />
-      {!product.id && (
-        <img
-          className="loading"
-          src="/src/static/img/Infinity-3s-200.gif"
-          alt="Carregando..."
-        />
-      )}
+      {!product.id && <div className="loading"></div>}
+      {exibirMensagem && <div className="popup">Adicionado ao carrinho!</div>}
       {realValue && product.id && (
         <div key={product.id} className="div-principal">
           <img src={product.src.large2x} alt="img" />

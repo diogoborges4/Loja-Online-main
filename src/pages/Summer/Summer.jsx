@@ -32,13 +32,7 @@ const Summer = () => {
         </div>
       </div>
       <div className="men-styles">
-        {!menStyle.media && (
-          <img
-            className="loading"
-            src="/src/static/img/Infinity-3s-200.gif"
-            alt="Carregando..."
-          />
-        )}
+        {!menStyle.media && <div className="loading"></div>}
         {menStyle.media &&
           menStyle.media.map((men) => (
             <Link to={`/product/${men.id}`} props={men.id}>

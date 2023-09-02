@@ -31,13 +31,7 @@ const Winter = () => {
           <AutoPlay />
         </div>
       </div>
-      {!menStyle.media && (
-        <img
-          className="loading"
-          src="/src/static/img/Infinity-3s-200.gif"
-          alt="Carregando..."
-        />
-      )}
+      {!menStyle.media && <div className="loading"></div>}
       <div className="men-styles">
         {menStyle.media &&
           menStyle.media.map((men) => (

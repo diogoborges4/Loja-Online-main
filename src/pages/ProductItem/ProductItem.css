@@ -9,6 +9,24 @@
   border-radius: 10px;
 }
 
+.popup {
+  position: fixed;
+  left: 20px;
+  width: 200px;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  font-size: large;
+  font-family: helvetica;
+  font-weight: 400;
+}
+
 .info-img {
   display: flex;
   width: 400px;

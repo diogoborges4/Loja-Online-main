@@ -3,7 +3,6 @@
   justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 100px;
-  margin: 0 100px 100px;
 }
 
 .men-styles div {
@@ -16,6 +15,18 @@
   height: auto;
   border-radius: 10px;
   transition: 0.3s;
+  margin: 0 30px 5px;
+}
+
+.loading {
+  margin: 100px;
+  margin-right: 500px;
+  width: 300px;
+  display: flex;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/src/static/img/Infinity-3s-200.gif");
 }
 
 .men-styles img:hover {

@@ -35,13 +35,7 @@ const CartProducts = () => {
   return (
     <div>
       <Navbar />
-      {products.length === 0 && (
-        <img
-          id="imgCartEmpty"
-          src="src\static\img\pngkitcarrinho-de-compras-4110678.png"
-          alt=""
-        />
-      )}
+      {products.length === 0 && <div className="carrinhoVazio"></div>}
       {products.length >= 1 && (
         <div className="cartHeader">
           <h2>PRODUCT DETAILS</h2>
