@@ -36,8 +36,7 @@ const Men = () => {
       <h1 className="h1-men">Men Style</h1>
       <div className="men-styles">
         {!menStyle.media && (
-          <div classname="loading">
-          </div>
+          <img src="src\static\img\Infinity-3s-200.gif" alt="Carregando..." />
         )}
         {menStyle.media &&
           menStyle.media.map((men) => (

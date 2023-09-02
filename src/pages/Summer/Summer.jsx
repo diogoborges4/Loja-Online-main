@@ -35,7 +35,7 @@ const Summer = () => {
         {!menStyle.media && (
           <img
             className="loading"
-            src="/src/static/img/Infinity-3s-200px(1).gif"
+            src="/src/static/img/Infinity-3s-200.gif"
             alt="Carregando..."
           />
         )}
